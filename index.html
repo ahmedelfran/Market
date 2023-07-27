@@ -1,0 +1,942 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-------- Font Awesome ---------->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!-- ----- swiper-slide ---------->
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <!-------- link Css ---------->
+    <link rel="stylesheet" href="css/main.css" />
+</head>
+
+<body>
+    <!--   navbar   -->
+    <!-- header section start -->
+    <header class="header">
+
+        <a href="index.html" class="logo"><i class="fas fa-shopping-basket"></i> اسواق المدينة </a>
+
+        <nav class="navbar">
+            <a href="#home">الصفحة الرائسية</a>
+            <a href="#producte">منتجاتنا</a>
+            <a href="#Review">اراء عملائنا</a>
+            <a href="#Blog">مقالات</a>
+            <a href="#home">حول</a>
+            <a href="#Contact">تواصل معنا</a>
+        </nav>
+        <div class="icons">
+            <div id="menu-btn" class="fas fa-bars"></div>
+            <div id="search-btn" class="fas fa-search"></div>
+            <div id="cart-btn" class="fas fa-shopping-cart"></div>
+            <div id="login-btn" class="fas fa-user"></div>
+        </div>
+    </header>
+    <!-- header section end  -->
+
+    <!-- search-form  -->
+    <section class="search-form-container">
+        <form action="">
+            <input type="search" name="" placeholder="ابحث هنا " id="search-box">
+            <label for="search-box" class="fas fa-search"></label>
+        </form>
+    </section>
+
+    <!-- shopping-cart section  -->
+    <section class="shopping-cart-container">
+        <div class="products-container">
+            <h3 class="title"> منتـجـاتك </h3>
+            <div class="box-container">
+                <div class="box">
+                    <i class="fas fa-times"></i>
+                    <img src="image/product-1.png" alt="">
+                    <div class="content">
+                        <h3>موز مستورد</h3>
+                        <span> كمية : </span>
+                        <input type="number" name="" value="1" id="">
+                        <br>
+                        <span> السعر : </span>
+                        <span class="price"> 20.00 جنية </span>
+                    </div>
+                </div>
+                <div class="box">
+                    <i class="fas fa-times"></i>
+                    <img src="image/product-2.png" alt="">
+                    <div class="content">
+                        <h3> طماطم </h3>
+                        <span> كمية : </span>
+                        <input type="number" name="" value="1" id="">
+                        <br>
+                        <span> السعر : </span>
+                        <span class="price"> 15.00 جنية </span>
+                    </div>
+                </div>
+                <div class="box">
+                    <i class="fas fa-times"></i>
+                    <img src="image/product-3.png" alt="">
+                    <div class="content">
+                        <h3>برتقال </h3>
+                        <span> كمية : </span>
+                        <input type="number" name="" value="1" id="">
+                        <br>
+                        <span> السعر : </span>
+                        <span class="price"> 7.00 جنية </span>
+                    </div>
+                </div>
+                <div class="box">
+                    <i class="fas fa-times"></i>
+                    <img src="image/product-7.png" alt="">
+                    <div class="content">
+                        <h3> تفاح </h3>
+                        <span> كمية : </span>
+                        <input type="number" name="" value="1" id="">
+                        <br>
+                        <span> السعر : </span>
+                        <span class="price"> 35.00 جنية </span>
+                    </div>
+                </div>
+                <div class="box">
+                    <i class="fas fa-times"></i>
+                    <img src="image/product-6.png" alt="">
+                    <div class="content">
+                        <h3> لوز </h3>
+                        <span> كمية : </span>
+                        <input type="number" name="" value="1" id="">
+                        <br>
+                        <span> السعر : </span>
+                        <span class="price"> 80.00 جنية </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="cart-total">
+            <h3 class="title"> إجمالي سلة التسوق </h3>
+            <div class="box">
+                <h3 class="subtotal"> مجموع السلة : <span> 153.00 جنية </span> </h3>
+                <h3 class="total"> الاجمالي : <span> 153.00 جنية </span> </h3>
+                <a href="#" class="btn">شراء</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- login-form  -->
+    <div class="login-form-container">
+        <form action="">
+            <h3>login form</h3>
+            <input type="email" name="" placeholder="enter your email" id="" class="box">
+            <input type="password" name="" placeholder="enter your password" id="" class="box">
+            <div class="remember">
+                <input type="checkbox" name="" id="remember-me">
+                <label for="remember-me">remember me</label>
+            </div>
+            <input type="submit" value="login now" class="btn">
+            <p>forget password? <a href="index.html">click here</a></p>
+            <p>don't have an account? <a href="index.html">create one</a></p>
+        </form>
+    </div>
+    <!--   end navbar   -->
+
+    <!--====================================================== home ===============================================-->
+    <section class="home" id="home">
+        <div class="content">
+            <h3> هايبر <span> اسواق المدينة </span></h3>
+            <p>اشتري وانت في مكانك أقل أسعار وتعرف علي كل الاسعار المنتجات وأفضل عروض وخصومات علي جميع المنتجات </p>
+            <a href="index.html" class="btn"> تسوق الان </a>
+        </div>
+    </section>
+
+    <!--====================================================== features ===============================================-->
+    <div class="features container-fluid col-10" id="features">
+        <div class="row">
+            <div class="heading-box">
+                <h2 class="h2"><i class="fa-solid fa-check-double"></i> ميزاتنا </h2>
+            </div>
+        </div>
+            <div class="box-container">
+                <div class="card">
+                    <img src="image/feature-img-3.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h3> سهولة الدفع </h3>
+                        <p> نوفر عدة خيارات في الدفع الالكتروني السهل والدفع النقدي</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="image/feature-img-2.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h3> توصيل مجاني </h3>
+                        <p> توصيل سريع في غضون 30 دقيقة </p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="image/feature-img-1.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h3> خضار وفاكهة فريش </h3>
+                        <p> لدينا جميع انواع الخضروات الفريش تجهز خصيصاً من اجلك انت</p>
+                    </div>
+                </div>
+            </div>
+    </div>
+
+    <!--====================================================== banner ===============================================-->
+    <div class="banner-all container-fluid col-10" id="features">
+            <div class="box-banner">
+                <div class="card banner">
+                    <img src="image/banner-1.jpg" alt="">
+                    <div class="content">
+                        <h3>عرض خاص</h3>
+                        <p>تصل إلى 45٪ خصم</p>
+                        <a href="index.html" class="btn">تسوق الان</a>
+                    </div>
+                </div>
+                <div class="card banner">
+                    <img src="image/banner-2.jpg" alt="">
+                    <div class="content">
+                        <h3>عرض محدود</h3>
+                        <p>تصل إلى 50٪ خصم</p>
+                        <a href="index.html" class="btn">تسوق الان</a>
+                    </div>
+                </div>
+            </div>
+    </div>
+
+    <!--====================================================== productes ===============================================-->
+    <div class="producte container-fluid" id="producte">
+
+        <div class="heading-box">
+            <h2 class="h2"><i class="fa-solid fa-store"></i> منتجاتنا</h2>
+        </div>
+        <div class="box-container">
+            <div class="box">
+                <div class="card-body">
+                    <h3> لحوم طازجة </h3>
+                </div>
+                <img src="image/1.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <a href="index.html" class="btn">تسوق الان</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="card-body">
+                    <h3> دواجن </h3>
+                </div>
+                <img src="image/2.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <a href="index.html" class="btn">تسوق الان</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="card-body">
+                    <h3> مخبوزات</h3>
+                </div>
+                <img src="image/3.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <a href="index.html" class="btn">تسوق الان</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="card-body">
+                    <h3> جبن والبان </h3>
+                </div>
+                <img src="image/4.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <a href="index.html" class="btn">تسوق الان</a>
+                </div>
+            </div>
+            <div class="box ">
+                <div class="card-body">
+                    <h3> خضروات </h3>
+                </div>
+                <img src="image/5.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <a href="index.html" class="btn">تسوق الان</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="card-body">
+                    <h3> السمك والسى فود </h3>
+                </div>
+                <img src="image/6.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <a href="index.html" class="btn">تسوق الان</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="card-body">
+                    <h3> المجمدات</h3>
+                </div>
+                <img src="image/7.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <a href="index.html" class="btn">تسوق الان</a>
+                </div>
+            </div>
+            <div class="box">
+                <div class="card-body">
+                    <h3> ادوات التنظيف المنزلية </h3>
+                </div>
+                <img src="image/8.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <a href="index.html" class="btn">تسوق الان</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--====================================================== show ===============================================-->
+    <div class="show container-fluid col-10" id="features">
+        <div class="row">
+            <div class="show-box">
+                <h3> الفاكهة </h3>
+                <p>تصل إلى 15٪ خصم</p>
+                <img src="image/ppp.png" class="card-img-top" alt="..."><br>
+                <a href="index.html" class="btn">تسوق الان</a>
+            </div>
+        </div>
+    </div>
+
+    <!--====================================================== CATEGORY ===============================================-->
+
+    <div class="row category-container justify-content-center my-5">
+        <div class="row">
+            <div class="heading-box">
+                <h2 class="h2"> اصناف مقترحة <i class="fa-solid fa-store"></i></h2>
+            </div>
+        </div>
+        <div class="row swiper category-content col-10 ">
+            <div class="swiper-btn justify-content-between">
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+            <div class="swiper-wrapper">
+                <!------- category-box 1 --------->
+                <div class="swiper-slide text-center">
+                    <div class="category-box">
+                        <span class="discount">-٢٠٪</span>
+                        <div class="icons-product">
+                            <a href="index.html" class="fas fa-heart"></a>
+                            <a href="index.html" class="fas fa-share"></a>
+                            <a href="index.html" class="fas fa-eye"></a>
+                        </div>
+                        <img src="image/1.png" class="card-img-top" alt="...">
+                        <div class="content-product">
+                            <h3> لحوم طازجة </h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </div>
+                            <div class="price"><span> ٢٠٠</span> ١٨٠ جنية </div>
+                            <div class="quantity">
+                                <span> كمية : </span>
+                                <input type="number" min="1" max="1000" value="1">
+                                <span> /كيلوجرام </span>
+                            </div>
+                            <a href="index.html" class="btn"><i class="fa-solid fa-cart-shopping"></i> اضف الي السلة </a>
+                        </div>
+                    </div>
+                </div>
+                <!------- category-box 2 --------->
+                <div class="swiper-slide text-center">
+                    <div class="category-box">
+                        <span class="discount">-٢٠٪</span>
+                        <div class="icons-product">
+                            <a href="index.html" class="fas fa-heart"></a>
+                            <a href="index.html" class="fas fa-share"></a>
+                            <a href="index.html" class="fas fa-eye"></a>
+                        </div>
+                        <img src="image/product-1.png" class="card-img-top" alt="...">
+                        <div class="content-product">
+                            <h3> موز مستورد </h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </div>
+                            <div class="price"><span> ٢٠٠</span> ٨٠ جنية </div>
+                            <div class="quantity">
+                                <span> كمية : </span>
+                                <input type="number" min="1" max="1000" value="1">
+                                <span> /كيلوجرام </span>
+                            </div>
+                            <a href="index.html" class="btn"><i class="fa-solid fa-cart-shopping"></i> اضف الي السلة </a>
+                        </div>
+                    </div>
+                </div>
+                <!------- category-box 3 --------->
+                <div class="swiper-slide text-center">
+                    <div class="category-box">
+                        <span class="discount">-٢٠٪</span>
+                        <div class="icons-product">
+                            <a href="index.html" class="fas fa-heart"></a>
+                            <a href="index.html" class="fas fa-share"></a>
+                            <a href="index.html" class="fas fa-eye"></a>
+                        </div>
+                        <img src="image/product-2.png" class="card-img-top" alt="...">
+                        <div class="content-product">
+                            <h3> طماطم </h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </div>
+                            <div class="price"><span> ٢٠٠</span> ١٨٠ جنية </div>
+                            <div class="quantity">
+                                <span> كمية : </span>
+                                <input type="number" min="1" max="1000" value="1">
+                                <span> /كيلوجرام </span>
+                            </div>
+                            <a href="index.html" class="btn"><i class="fa-solid fa-cart-shopping"></i> اضف الي السلة </a>
+                        </div>
+                    </div>
+                </div>
+                <!------- category-box 4 --------->
+                <div class="swiper-slide text-center">
+                    <div class="category-box">
+                        <span class="discount">-٢٠٪</span>
+                        <div class="icons-product">
+                            <a href="index.html" class="fas fa-heart"></a>
+                            <a href="index.html" class="fas fa-share"></a>
+                            <a href="index.html" class="fas fa-eye"></a>
+                        </div>
+                        <img src="image/product-10.png" class="card-img-top" alt="...">
+                        <div class="content-product">
+                            <h3> بصل احمر </h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </div>
+                            <div class="price"><span> ٢٠٠</span> ١٨٠ جنية </div>
+                            <div class="quantity">
+                                <span> كمية : </span>
+                                <input type="number" min="1" max="1000" value="1">
+                                <span> /كيلوجرام </span>
+                            </div>
+                            <a href="index.html" class="btn"><i class="fa-solid fa-cart-shopping"></i> اضف الي السلة </a>
+                        </div>
+                    </div>
+                </div>
+                <!------- category-box 5 --------->
+                <div class="swiper-slide text-center">
+                    <div class="category-box">
+                        <span class="discount">-٢٠٪</span>
+                        <div class="icons-product">
+                            <a href="index.html" class="fas fa-heart"></a>
+                            <a href="index.html" class="fas fa-share"></a>
+                            <a href="index.html" class="fas fa-eye"></a>
+                        </div>
+                        <img src="image/product-5.png" class="card-img-top" alt="...">
+                        <div class="content-product">
+                            <h3> عنب </h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </div>
+                            <div class="price"><span> ٢٠٠</span> ١٨٠ جنية </div>
+                            <div class="quantity">
+                                <span> كمية : </span>
+                                <input type="number" min="1" max="1000" value="1">
+                                <span> /كيلوجرام </span>
+                            </div>
+                            <a href="index.html" class="btn"><i class="fa-solid fa-cart-shopping"></i> اضف الي السلة </a>
+                        </div>
+                    </div>
+                </div>
+                <!------- category-box 6 --------->
+                <div class="swiper-slide text-center">
+                    <div class="category-box">
+                        <span class="discount">-٢٠٪</span>
+                        <div class="icons-product">
+                            <a href="index.html" class="fas fa-heart"></a>
+                            <a href="index.html" class="fas fa-share"></a>
+                            <a href="index.html" class="fas fa-eye"></a>
+                        </div>
+                        <img src="image/product-6.png" class="card-img-top" alt="...">
+                        <div class="content-product">
+                            <h3> لوز </h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </div>
+                            <div class="price"><span> ٢٠٠</span> ١٨٠ جنية </div>
+                            <div class="quantity">
+                                <span> كمية : </span>
+                                <input type="number" min="1" max="1000" value="1">
+                                <span> /كيلوجرام </span>
+                            </div>
+                            <a href="index.html" class="btn"><i class="fa-solid fa-cart-shopping"></i> اضف الي السلة </a>
+                        </div>
+                    </div>
+                </div>
+                <!------- category-box 7 --------->
+                <div class="swiper-slide text-center">
+                    <div class="category-box">
+                        <span class="discount">-٢٠٪</span>
+                        <div class="icons-product">
+                            <a href="index.html" class="fas fa-heart"></a>
+                            <a href="index.html" class="fas fa-share"></a>
+                            <a href="index.html" class="fas fa-eye"></a>
+                        </div>
+                        <img src="image/product-11.png" class="card-img-top" alt="...">
+                        <div class="content-product">
+                            <h3> بطيخ </h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </div>
+                            <div class="price"><span> ٢٠٠</span> ١٨٠ جنية </div>
+                            <div class="quantity">
+                                <span> كمية : </span>
+                                <input type="number" min="1" max="1000" value="1">
+                                <span> /كيلوجرام </span>
+                            </div>
+                            <a href="index.html" class="btn"><i class="fa-solid fa-cart-shopping"></i> اضف الي السلة </a>
+                        </div>
+                    </div>
+                </div>
+                <!------- category-box 8 --------->
+                <div class="swiper-slide text-center">
+                    <div class="category-box">
+                        <span class="discount">-٢٠٪</span>
+                        <div class="icons-product">
+                            <a href="index.html" class="fas fa-heart"></a>
+                            <a href="index.html" class="fas fa-share"></a>
+                            <a href="index.html" class="fas fa-eye"></a>
+                        </div>
+                        <img src="image/product-9.png" class="card-img-top" alt="...">
+                        <div class="content-product">
+                            <h3> جزر </h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </div>
+                            <div class="price"><span> ٢٠٠</span> ١٨٠ جنية </div>
+                            <div class="quantity">
+                                <span> كمية : </span>
+                                <input type="number" min="1" max="1000" value="1">
+                                <span> /كيلوجرام </span>
+                            </div>
+                            <a href="index.html" class="btn"><i class="fa-solid fa-cart-shopping"></i> اضف الي السلة </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--====================================================== show-two ===============================================-->
+    <div class="show-two justify-content-center my-5">
+        <div class="row justify-content-center">
+            <div class="text-show-two col-5 mx-5 mt-5">
+                <h3 class="text-right">منتجات احتياجاتك اليومية , فريش و اورجانيك </h3>
+                <p class="text-right">خصم بنسبة تصل إلى 50%</p>
+                <a href="index.html" class="btn">تسوق الان</a>
+            </div>
+            <div class="img-show-two col-5 mx-5 mt-4">
+                <img src="image/home-img.png" alt="">
+            </div>
+        </div>
+    </div>
+
+    <!--====================================================== Review ===============================================-->
+
+    <div class="Review  my-5" id="Review">
+        <div class="row my-5">
+            <div class="heading-box">
+                <h2 class="h2"><i class="fa-solid fa-user-group"></i> اراء العملاء</h2>
+            </div>
+        </div>
+        <div class="Review-conrtaine swiper">
+            <div class="Review-box">
+                <div class="card-wapper swiper-wrapper">
+                    <div class="R-card swiper-slide">
+                        <div class="image-content">
+                            <div class="card-image">
+                                <img src="image/R1.jpg" alt="" class="card-img">
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h3 class="name">احمد سيد </h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </div>
+                            <p><i class="fa-solid fa-quote-right"></i> لوريم ايبسوم دولار سيت أميت ,كونسيكتيتور
+                                أدايبا يسكينج أليايت,سيت دو أيوسمود تيمبور
+                                أنكايديديونتيوت لابوري ات دولار ماجنا أليكيوا . يوت انيم أد مينيم فينايم,كيواس
+                                <i class="fa-solid fa-quote-left"></i>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="R-card swiper-slide">
+                        <div class="image-content">
+                            <div class="card-image">
+                                <img src="image/R1.jpg" alt="" class="card-img">
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h3 class="name">احمد سيد </h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </div>
+                            <p><i class="fa-solid fa-quote-right"></i> لوريم ايبسوم دولار سيت أميت ,كونسيكتيتور
+                                أدايبا يسكينج أليايت,سيت دو أيوسمود تيمبور
+                                أنكايديديونتيوت لابوري ات دولار ماجنا أليكيوا . يوت انيم أد مينيم فينايم,كيواس
+                                <i class="fa-solid fa-quote-left"></i>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="R-card swiper-slide">
+                        <div class="image-content">
+                            <div class="card-image">
+                                <img src="image/R1.jpg" alt="" class="card-img">
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h3 class="name">احمد سيد </h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </div>
+                            <p><i class="fa-solid fa-quote-right"></i> لوريم ايبسوم دولار سيت أميت ,كونسيكتيتور
+                                أدايبا يسكينج أليايت,سيت دو أيوسمود تيمبور
+                                أنكايديديونتيوت لابوري ات دولار ماجنا أليكيوا . يوت انيم أد مينيم فينايم,كيواس
+                                <i class="fa-solid fa-quote-left"></i>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="R-card swiper-slide">
+                        <div class="image-content">
+                            <div class="card-image">
+                                <img src="image/R1.jpg" alt="" class="card-img">
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h3 class="name">احمد سيد </h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </div>
+                            <p><i class="fa-solid fa-quote-right"></i> لوريم ايبسوم دولار سيت أميت ,كونسيكتيتور
+                                أدايبا يسكينج أليايت,سيت دو أيوسمود تيمبور
+                                أنكايديديونتيوت لابوري ات دولار ماجنا أليكيوا . يوت انيم أد مينيم فينايم,كيواس
+                                <i class="fa-solid fa-quote-left"></i>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="R-card swiper-slide">
+                        <div class="image-content">
+                            <div class="card-image">
+                                <img src="image/R1.jpg" alt="" class="card-img">
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h3 class="name">احمد سيد </h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </div>
+                            <p><i class="fa-solid fa-quote-right"></i> لوريم ايبسوم دولار سيت أميت ,كونسيكتيتور
+                                أدايبا يسكينج أليايت,سيت دو أيوسمود تيمبور
+                                أنكايديديونتيوت لابوري ات دولار ماجنا أليكيوا . يوت انيم أد مينيم فينايم,كيواس
+                                <i class="fa-solid fa-quote-left"></i>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="R-card swiper-slide">
+                        <div class="image-content">
+                            <div class="card-image">
+                                <img src="image/R1.jpg" alt="" class="card-img">
+                            </div>
+                        </div>
+                        <div class="card-content">
+                            <h3 class="name">احمد سيد </h3>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </div>
+                            <p><i class="fa-solid fa-quote-right"></i> لوريم ايبسوم دولار سيت أميت ,كونسيكتيتور
+                                أدايبا يسكينج أليايت,سيت دو أيوسمود تيمبور
+                                أنكايديديونتيوت لابوري ات دولار ماجنا أليكيوا . يوت انيم أد مينيم فينايم,كيواس
+                                <i class="fa-solid fa-quote-left"></i>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div><br>
+
+            <div class="swiper-button-next swiper-navBtn"></div>
+            <div class="swiper-button-prev swiper-navBtn"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+
+    <!--====================================================== Blog ===============================================-->
+
+    <div class="Blog my-5" id="Blog">
+        <div class="row my-5">
+            <div class="heading-box">
+                <h2 class="h2"> مـقـالات <i class="fa-solid fa-chalkboard-user"></i></h2>
+            </div>
+        </div>
+        <div class="row justify-content-center my-4">
+            <div class="blog-box  col-10">
+
+                <!-- box 1 -->
+                <div class="box-blog">
+                    <div class="bolg-content justify-content-center">
+                        <img src="image/blog-1.jpg" class="card-img-top" alt="...">
+                        <div class="author justify-content-between ">
+                            <div class="user d-flex">
+                                <i class="fa-solid fa-user"></i>
+                                <h3>احمدالفران</h3>
+                            </div>
+                            <div class="date d-flex">
+                                <h3> 1st May, 2021</h3>
+                                <i class="fa-solid fa-calendar"></i>
+                            </div>
+                        </div>
+                        <div class="blog-body">
+                            <h1>الخضار والفواكه الطازجة</h1>
+
+                            <p>لوريم ايبسوم دولار سيت أميت ,كونسيكتيتور أدايبا يسكينج أليايت,سيت دو أيوسمود تيمبور
+                                أنكا . يوت انيم أد مينيم فينايم,كيواس نوستريد
+                                أكسير سيتاشن يللأمكو لابورأس . ديواس
+                                أيوتي أريري دولار إن ريبريهينديرأيت فوليوبتاتي فيلايت أيسسي كايلليوم دولار أيو
+                                فيجايت
+                                نيولا أيدي ايست لابوريوم.</p>
+                            <a href="index.html" class="btn">اقراء المزيد</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- box 2 -->
+                <div class="box-blog">
+                    <div class="bolg-content justify-content-center">
+                        <img src="image/blog-2.jpg" class="card-img-top" alt="...">
+                        <div class="author justify-content-between ">
+                            <div class="user d-flex">
+                                <i class="fa-solid fa-user"></i>
+                                <h3>احمدالفران</h3>
+                            </div>
+                            <div class="date d-flex">
+                                <h3> 1st May, 2021</h3>
+                                <i class="fa-solid fa-calendar"></i>
+                            </div>
+                        </div>
+                        <div class="blog-body">
+                            <h1>الخضار والفواكه الطازجة</h1>
+
+                            <p>لوريم ايبسوم دولار سيت أميت ,كونسيكتيتور أدايبا يسكينج أليايت,سيت دو أيوسمود تيمبور
+                                أنكا . يوت انيم أد مينيم فينايم,كيواس نوستريد
+                                أكسير سيتاشن يللأمكو لابورأس . ديواس
+                                أيوتي أريري دولار إن ريبريهينديرأيت فوليوبتاتي فيلايت أيسسي كايلليوم دولار أيو
+                                فيجايت
+                                نيولا أيدي ايست لابوريوم.</p>
+                            <a href="index.html" class="btn">اقراء المزيد</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- box 3 -->
+                <div class="box-blog">
+                    <div class="bolg-content justify-content-center">
+                        <img src="image/blog-3.jpg" class="card-img-top" alt="...">
+                        <div class="author justify-content-between ">
+                            <div class="user d-flex">
+                                <i class="fa-solid fa-user"></i>
+                                <h3>احمدالفران</h3>
+                            </div>
+                            <div class="date d-flex">
+                                <h3> 1st May, 2021</h3>
+                                <i class="fa-solid fa-calendar"></i>
+                            </div>
+                        </div>
+                        <div class="blog-body">
+                            <h1>الخضار والفواكه الطازجة</h1>
+
+                            <p>لوريم ايبسوم دولار سيت أميت ,كونسيكتيتور أدايبا يسكينج أليايت,سيت دو أيوسمود تيمبور
+                                أنكا . يوت انيم أد مينيم فينايم,كيواس نوستريد
+                                أكسير سيتاشن يللأمكو لابورأس . ديواس
+                                أيوتي أريري دولار إن ريبريهينديرأيت فوليوبتاتي فيلايت أيسسي كايلليوم دولار أيو
+                                فيجايت
+                                نيولا أيدي ايست لابوريوم.</p>
+                            <a href="index.html" class="btn">اقراء المزيد</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!--====================================================== Contact ===============================================-->
+
+    <div class="Contact my-5" id="Contact">
+        <div class="row my-5">
+            <div class="heading-box">
+                <h2 class="h2"> تواصل معنا <i class="fa-solid fa-mobile-screen-button"></i></h2>
+            </div>
+        </div>
+        <div class="row justify-content-center my-4">
+            <div class="Contact-all col-10">
+                <div class="row">
+                    <div class="col-4">
+                        <div class="data-box">
+                            <img src="image/icon-1.png" class="card-img-top" alt="...">
+                            <h2>من الساعه 7 صباحا اللي 11مساء</h2>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="data-box">
+                            <img src="image/icon-2.png" class="card-img-top" alt="...">
+                            <h2>010-2385-8970</h2>
+                        </div>
+                    </div>
+                    <div class="col-4">
+                        <div class="data-box">
+                            <img src="image/icon-3.png" class="card-img-top" alt="...">
+                            <h2>العنوان , مصر</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="con my-5">
+                        <div class="Contact-box">
+                            <form>
+                                <div class="form-group">
+                                    <label>الاسم</label>
+                                    <input type="text" placeholder="" class="form-control">
+                                    <label>رقم التليفون</label>
+                                    <input type="number" placeholder="" class="form-control">
+                                    <label>الايميل</label>
+                                    <input type="email" placeholder="" class="form-control">
+                                    <label>اختار المعاد</label>
+                                    <input type="date" placeholder="" class="form-control">
+                                    <label>الرسالة</label>
+                                    <textarea rows="5" class="form-control"></textarea>
+                                    <button type="submit" class="btn my-5">ارسال</button>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="Contact-box">
+                            <iframe class="embed-responsive-item"
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d55251.377086964094!2d31.293397998699703!3d30.059483833048265!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14583fa60b21beeb%3A0x79dfb296e8423bba!2z2KfZhNmC2KfZh9ix2KnYjCDZhdit2KfZgdi42Kkg2KfZhNmC2KfZh9ix2KnigKw!5e0!3m2!1sar!2seg!4v1660851534070!5m2!1sar!2seg"
+                                allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--====================================================== footer ===============================================-->
+    <div class="footer">
+        <div class="footer-box">
+            <div class="footer-content logo-footer">
+                <a href="index.html" class="logo"><i class="fas fa-shopping-basket"></i> اسواق المدينة </a>
+                <p>اشتري وانت في مكانك أقل أسعار وتعرف علي كل الاسعار المنتجات وأفضل عروض وخصومات علي جميع
+                    المنتجات </p>
+                <div class="social">
+                    <i class="fa-brands fa-facebook"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-linkedin-in"></i>
+                </div>
+            </div>
+            <div class="links-all">
+                <div class="footer-content ">
+                    <div class="links">
+                        <h1>روابط سريعة</h1>
+                        <a href="#home"> <i class="fa-solid fa-arrow-left ml-4"></i> الصفحة الرائسية</a>
+                        <a href="#producte"> <i class="fa-solid fa-arrow-left ml-4"></i> منتجاتنا</a>
+                        <a href="#Review"> <i class="fa-solid fa-arrow-left ml-4"></i> اراء عملائنا</a>
+                        <a href="#Blog"> <i class="fa-solid fa-arrow-left ml-4"></i> مقالات</a>
+                        <a href="#home"> <i class="fa-solid fa-arrow-left ml-4"></i> حول</a>
+                        <a href="#Contact"> <i class="fa-solid fa-arrow-left ml-4"></i> تواصل معنا </a>
+                    </div>
+                </div>
+                <div class="footer-content">
+                    <div class="links">
+                        <h1> قائمة المنتجات </h1>
+                        <a href="#home"> <i class="fa-solid fa-arrow-left ml-4"></i> لحوم طازجة </a>
+                        <a href="#about"> <i class="fa-solid fa-arrow-left ml-4"></i> دواجن</a>
+                        <a href="#popular"> <i class="fa-solid fa-arrow-left ml-4"></i> مخبوزات </a>
+                        <a href="#menu"> <i class="fa-solid fa-arrow-left ml-4"></i> جبن والبان </a>
+                        <a href="#order"> <i class="fa-solid fa-arrow-left ml-4"></i> خضروات </a>
+                        <a href="#blogs"> <i class="fa-solid fa-arrow-left ml-4"></i> السمك والسى فود </a>
+                        <a href="#order"> <i class="fa-solid fa-arrow-left ml-4"></i> المجمدات </a>
+                        <a href="#order"> <i class="fa-solid fa-arrow-left ml-4"></i> ادوات التنظيف المنزلية </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row me">
+            <h1>Created By <a href="https://www.facebook.com/a7med.elfran">Ahmed Sayed Elfran</a>
+            </h1>
+            <div class="social">
+                <a href="https://www.facebook.com/a7med.elfran"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.facebook.com/a7med.elfran"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://www.facebook.com/a7med.elfran"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.facebook.com/a7med.elfran"><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <!-- footer section ends -->
+
+    <!-------- link bootstrap ---------->
+    <!-- ----- link bootstrap  -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!-------- swiper-slide --------->
+    <script src="js/swiper-bundle.min.js"></script>
+    <!-------- link Js ---------->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
